@@ -73,7 +73,7 @@ function App() {
       <div className="div3">
         <div className="div31">
           <form onSubmit={handleSubmit}>
-            <input type="text" name="input" className="input" autocomplete="off" />
+            <input type="text" name="input" className="input" autocomplete="off" placeholder="1,2,3,4,5"/>
             <br />
             <button className="button">Shoot</button>
           </form>
