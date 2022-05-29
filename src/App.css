@@ -38,24 +38,28 @@
 } */
 
 .App{
-  border: 1px solid red;
+  border: 0px solid #BDBDBD;
+  box-shadow: -3px -3px 10px 10px #BDBDBD;
   display: grid;
   grid-template-columns: 25% 5% 15% 40%;
-  height: 700px;
-  margin-left: 100px;
-  margin-right: 100px;
+  height: 650px;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 10px;
 }
 .div1{
   /* border: 1px solid red; */
   margin-top: 150px;
   margin-left: 50px;
+  font-weight: 500;
 }
 .div12{
   border: 2px solid black;
   margin-top: 10px;
-  height: 350px;
+  height: 370px;
+  width: 350px;
   display: grid;
-  grid-template-columns: 32% 32%;
+  grid-template-columns: 33% 33%;
   gap: 10px;
 }
 
@@ -65,19 +69,28 @@
   /* margin-right: 500px; */
   display: grid;
   grid-template-columns:100px;
-  margin-top: 10px;
+ margin-left: 70px;
+
 
 }
 .div21{
   margin-left: 20px;
+  font-weight: 500;
 }
-
+.innerdiv{
+  margin-top: 10px;
+  margin-left: 10px;
+}
 .div221, .div222, .div223, .div224, .div225{
   border: 1px solid black;
   height: 100px;
   border-radius: 50%;
 }
 .div221, .div224{
+  background-color: #E8F5E9;
+  border: 2px solid #C8E6C9;
+}
+.div224{
   background-color: #CFD8DC;
   border: 2px solid #607D8B;
 }
