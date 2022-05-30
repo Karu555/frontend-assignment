@@ -1,5 +1,7 @@
  Download file and open in your vs code.
- Then do #npm i for download modules and then #npm start.
+ Then do 
+ <h1> npm i </h1>
+ for download modules and then #npm start.
 
 ## Tech Stack used : 
 ### Front-end
